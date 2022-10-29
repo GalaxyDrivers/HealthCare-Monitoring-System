@@ -1,0 +1,5 @@
+KNNpred=knn.predict([[Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]])
+if KNNpred==1:
+    print("You have Diabetes! Please take care of yourself ❤️")
+else:
+    print("Congratulations! You don't have Diabetes ❤️")
